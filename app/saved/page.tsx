@@ -70,16 +70,8 @@ export default function SavedEventsPage() {
             {savedEvents.map((event) => (
               <div
                 key={event.id}
-                className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-xl border-2 border-gray-900 overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                {/* Event Image */}
-                {event.imageUrl && (
-                  <div
-                    className="h-48 bg-cover bg-center"
-                    style={{ backgroundImage: `url(${event.imageUrl})` }}
-                  />
-                )}
-
                 {/* Event Content */}
                 <div className="p-6">
                   {/* Event Type Badge */}

@@ -24,7 +24,7 @@ export default function EventGridCard({ event }: EventGridCardProps) {
   };
 
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-200 relative">
+    <div className="bg-white rounded-xl border-2 border-gray-900 p-6 hover:shadow-lg transition-shadow duration-200 relative">
       {/* Bookmark Button */}
       <button
         onClick={handleBookmark}
