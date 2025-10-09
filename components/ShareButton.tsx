@@ -105,7 +105,7 @@ export default function ShareButton({ event }: ShareButtonProps) {
             </button>
           )}
 
-          {navigator.share && (
+          {typeof navigator !== 'undefined' && 'share' in navigator && (
             <button
               onClick={(e) => {
                 e.stopPropagation();
