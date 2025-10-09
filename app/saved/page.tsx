@@ -56,7 +56,7 @@ export default function SavedEventsPage() {
               No saved events yet
             </p>
             <p className="text-gray-600 mb-6">
-              Go back and start searching to save events you're interested in!
+              Go back and start searching to save events you&apos;re interested in!
             </p>
             <Link
               href="/"
